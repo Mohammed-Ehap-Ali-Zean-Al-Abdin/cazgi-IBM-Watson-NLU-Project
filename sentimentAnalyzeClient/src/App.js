@@ -21,7 +21,6 @@ class App extends React.Component {
   If the requested input mode is "text" it returns a textbox with 4 rows.
   If the requested input mode is "url" it returns a textbox with 1 row.
   */
- 
   renderOutput = (input_mode)=>{
     let rows = 1
     let mode = "url"
